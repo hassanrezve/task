@@ -16,8 +16,7 @@ A Laravel-based task management system with a hierarchical role-based structure 
 - Ajax form submission for creating, editing tasks, and adding comments without page reload
 - iziToast for displaying success and error notifications (loaded via CDN)
 - Validation errors displayed under each form field without page reload
-- JavaScript organized in a `@section('scripts')` block and appended to the layout
-- Assets compiled and served using Vite
+
 
 ## Setup Instructions
 1. Clone the repository:
@@ -44,5 +43,3 @@ php artisan db:seed
 - Manager: `manager@example.com` / `password` (Can assign tasks to Users)
 - User: `user@example.com` / `password` (Can view assigned tasks and comment)
 
-## Video Walkthrough
-[Add a link to a video walkthrough if available]
